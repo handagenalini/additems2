@@ -24,6 +24,12 @@ for (var i=0;i<items.length;i++){
     items[i].style.fontWeight='bold';
 }
 items[1].textContent='hello';
+var header=document.querySelector('list');
+list[1].style.color='solid green';
+var item=document.querySelectorAll('list-group-item');
+list.style.backgroundColor='green';
+
+list[1].style.backgroundColor='green';
 
 items[2].style.backgroundcolor='green';
 // console.log(document.domain);
