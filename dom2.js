@@ -59,9 +59,9 @@ console.log(li);
 console.log(li);
 for (var i=0;i<items.length;i++){
     items[i].style.fontWeight='bold';
+    
 }
-
-
+list[1].style.backgroundcolor='green';
 
 
 
@@ -78,7 +78,7 @@ for (var i=0;i<items.length;i++){
 <body>
   <header id="main-header" class="bg-success text-white p-4 mb-3">
     <div class="container">
-      <h1 id="header-title">Item Lister <span style="display:none">123</span></h1>
+      <h1 id="header-title">Item Lister <span style="display:none">3</span></h1>
     </div>
   </header>
   <div class="container">
